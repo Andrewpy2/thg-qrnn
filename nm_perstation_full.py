@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
-"""
-Per-station, per-target, per-horizon evaluation of the deployed THG-QRNN model
-(point forecasts with the deployed blend + per-station rolling conformal intervals) against the
-baseline prediction files. NOTE: baseline predictions are not part of this release;
-this script documents the full evaluation protocol of the paper.
-"""
+"""Per-station, per-target, per-horizon evaluation of the deployed THG-QRNN model
+(point forecasts with the deployed blend and per-station rolling conformal intervals).
+The script documents the full evaluation protocol of the paper."""
 import json
 import os
 

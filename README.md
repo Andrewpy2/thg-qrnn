@@ -5,14 +5,6 @@ neural network with a two-level, target- and forecast-horizon-conditioned spatia
 mechanism, trained with a pinball loss plus physics-consistency and non-crossing
 regularizers, and calibrated with split conformalized quantile regression.
 
-## Scope of this release
-
-- **Baseline implementations are intentionally not included.** The baselines compared in
-  the paper (persistence, LSTM, BiLSTM, GRU, RNN, TCN, Transformer, DLinear, PatchTST,
-  SVR, AR, and graph variants) are standard published methods evaluated under the
-  identical protocol, split, and data.
-- Inline code comments are partly in Chinese; module documentation is in English.
-
 ## Repository layout
 
 | Path | Role (manuscript section) |
